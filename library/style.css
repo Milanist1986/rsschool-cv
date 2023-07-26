@@ -1,0 +1,583 @@
+
+h1{
+color: #FFF;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 166.667% */
+letter-spacing: 0.6px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.header {
+    align-items: center;
+    background-color: #0C0C0E;
+    display: flex;
+    flex: row;
+    flex-shrink: 0;
+    height: 90px;
+    justify-content: flex-start;
+    mix-blend-mode: normal;
+    width: 1440px;
+    height: 90px;
+}
+
+.navbar {
+    color: white;
+    align-items: flex-start;
+    display: flex;
+    gap: 30px;
+    margin-left: 454px;
+    position: relative;
+    width: fit-content;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin: top 20px;
+    }
+
+.navbar-link {
+    letter-spacing: 0;
+    line-height: 50px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 40px;    
+
+}
+
+
+.body {
+width: 1440px;
+height: 300px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
+}
+
+.about {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+height: 40px;
+letter-spacing: 0;
+line-height: 40px;
+margin-top: 40px;
+text-align: center;
+white-space: nowrap;
+    width: 1440px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    }
+
+    .line {
+        position: relative;
+        background-color: #0c0c0e;
+        width: 50px;
+        height: 1px;
+        margin-left: 695px;
+        margin-top: 20px
+      
+        }
+    
+
+.books-and-coffee {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 40px;
+letter-spacing: 0;
+line-height: 40px;
+margin-top: 40px;
+text-align: center;
+white-space: nowrap;
+width: 1440px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.images {
+align-items: flex-start;
+display: flex;
+gap: 25px;
+margin-top: 20px;
+min-width: 1440px;
+margin-left: 20px;
+margin-right: 20px;
+}
+  
+ .photo {
+ width: 1440px;
+ height: 600px;
+ object-fit: cover;
+ }
+
+
+  
+
+.slide1 {
+    background-color:#BF9060;
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;  
+   
+  }
+
+.slide {
+    background-color: black;
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+  
+  
+}
+
+.carousel-pagination {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    min-width: 68px; 
+    margin-left: 686px;
+}
+
+.pick-favorites-of {
+ 
+font-size: 20px;
+font-family: Inter;
+color: #000;
+margin-left: 20px;
+
+}
+
+
+
+
+    .bg-description {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        width: 550px;
+        height: 555px;
+  }
+  .rectangle {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 2px;
+        border: 1px solid #bb945f;
+        box-sizing: border-box;
+        width: 75px;
+        height: 30px;
+  }
+  .own {
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+  }
+  .button {
+        position: absolute;
+        top: 510px;
+        left: 20px;
+        width: 75px;
+        height: 30px;
+        text-align: center;
+        font-size: 10px;
+        color: #bb945f;
+  }
+  .book-icon {
+        position: absolute;
+        top: 255px;
+        left: 390px;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+  }
+  .the-last-queen {
+        margin: 0;
+        text-transform: uppercase;
+  }
+  .by-clive-irving {
+        margin: 0;
+        text-transform: capitalize;
+  }
+  .the-last-queen-container {
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        letter-spacing: 2px;
+        line-height: 40px;
+  }
+  .a-timely-and {
+        position: absolute;
+        top: 175px;
+        left: 20px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        width: 355px;
+  }
+  .staff-pick-child {
+        position: absolute;
+        top: 39.5px;
+        left: -0.5px;
+        border-top: 1px solid #bb945f;
+        box-sizing: border-box;
+        width: 61px;
+        height: 1px;
+  }
+  .staff-picks {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-transform: capitalize;
+  }
+  .staff-pick {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width: 102px;
+        height: 40px;
+        font-size: 20px;
+        font-family: Forum;
+  }
+  .fourth-book {
+        position: absolute;
+        top: 595px;
+        left: 810px;
+        width: 590px;
+        height: 555px;
+  }
+  .rectangle1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 2px;
+        border: 1px solid #0c0c0e;
+        box-sizing: border-box;
+        width: 75px;
+        height: 30px;
+  }
+  .buy {
+        position: absolute;
+        top: 0px;
+        left: 27px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+  }
+  .button1 {
+        position: absolute;
+        top: 510px;
+        left: 20px;
+        width: 75px;
+        height: 30px;
+        text-align: center;
+        font-size: 10px;
+        color: #0c0c0e;
+  }
+  .third-book {
+        position: absolute;
+        top: 595px;
+        left: 0px;
+        width: 590px;
+        height: 555px;
+  }
+  .second-book {
+        position: absolute;
+        top: 0px;
+        left: 810px;
+        width: 590px;
+        height: 555px;
+  }
+  .first-book {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 590px;
+        height: 555px;
+  }
+  .favorites-items {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        width: 1400px;
+        height: 1150px;
+        font-size: 15px;
+        margin-top: 10px;
+  }
+  .line {
+        position: absolute;
+        top: 60px;
+        left: 55px;
+        background-color: #0c0c0e;
+        width: 50px;
+        height: 1px;
+  }
+ 
+  .favorites {
+    position:relative ;
+    left: 0px;
+    background-color: #fff;
+    width: 1400px;
+    height: 1250px;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;    
+}
+
+.desserts-cakes {
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: Forum;
+    color: #bb945f;
+    }
+    .forest-gateau {
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    }
+    .menu-item-child {
+    position: relative;
+    border-top: 1px solid #bb945f;
+    box-sizing: border-box;
+    width: 101px;
+    height: 1px;
+    }
+    .div {
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: Forum;
+    }
+    .menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+    }
+    .deserts {
+    position: absolute;
+    top: 0px;
+    left: 918px;
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 40px;
+    }
+    .menu-item6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    }
+    .french-press-pot {
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 196px;
+    flex-shrink: 0;
+    }
+    .coffe-and-tea-menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    }
+    .menu {
+    position: absolute;
+    top: 281px;
+    left: 20px;
+    width: 1400px;
+    height: 520px;
+    }
+    .i {
+    text-transform: capitalize;
+    }
+    .n-our-library {
+    text-transform: lowercase;
+    }
+    .in-our-library-we-have-of-coz {
+    margin: 0;
+    }
+    .y {
+    text-transform: uppercase;
+    }
+    .in-our-library-container {
+    position: absolute;
+    top: 121px;
+    left: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 1400px;
+    }
+    .line {
+    position: ;
+    top: 70px;
+    left: 85px;
+    background-color: #0c0c0e;
+    width: 50px;
+    height: 1px;
+    margin-left: 1px;
+    
+    }
+
+    .coffee-shop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    }
+    .section-title {
+    position: absolute;
+    top: 20px;
+    left: 610px;
+    width: 220px;
+    height: 61px;
+    font-size: 40px;
+    color: #0c0c0e;
+    font-family: Forum;
+    }
+    .coffeshop {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 841px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Inter;
+    }
+
+    .library-director-amanda-container {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-transform: capitalize;
+        }
+        .senior-staff {
+        position: absolute;
+        top: 280px;
+        left: 0px;
+        width: 351px;
+        height: 100px;
+        }
+        .putterham-library-617 {
+        position: absolute;
+        top: 120px;
+        left: 0px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-transform: capitalize;
+        }
+        .phone-info {
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 503px;
+        height: 160px;
+        }
+        .for-all-library {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-transform: capitalize;
+        }
+        .text-info {
+        position: relative;
+        width: 503px;
+        height: 380px;
+        }         
+
+        
+        .contacts-info {
+        position: absolute;
+        top: 121px;
+        left: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 201px;
+        }
+        .line {
+        position: absolute;
+        top: 60px;
+        left: 95px;
+        background-color: #0c0c0e;
+        width: 50px;
+        height: 1px;
+        }
+        .section-title {
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        width: 240px;
+        height: 61px;
+        font-size: 40px;
+        color: #0c0c0e;
+        font-family: Forum;
+        }
+        .contacts {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        height: 575px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        font-family: Inter;
+        }
