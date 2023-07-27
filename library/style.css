@@ -581,3 +581,230 @@ margin-left: 20px;
         color: #000;
         font-family: Inter;
         }
+
+
+           .log-in {
+            position: relative;
+            letter-spacing: 1px;
+            }
+
+            .button {
+            position: absolute;
+            top: 223px;
+            left: 381px;
+            border-radius: 2px;
+            border: 1px solid #0c0c0e;
+            box-sizing: border-box;
+            width: 75px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            padding: 10px 0px;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .button1 {
+            position: absolute;
+            top: 223px;
+            left: 286px;
+            border-radius: 2px;
+            border: 1px solid #0c0c0e;
+            box-sizing: border-box;
+            width: 75px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            padding: 10px 0px;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .you-will-be {
+            position: absolute;
+            top: 68px;
+            left: 0px;
+            font-size: 20px;
+            letter-spacing: 0.02em;
+            line-height: 40px;
+            color: #000;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            width: 456px;
+            }
+
+            .get-a-reader {
+            position: absolute;
+            top: 0px;
+            left: 236px;
+            font-size: 30px;
+            letter-spacing: 0.02em;
+            font-family: Forum;
+            color: #000;
+            }
+
+            .get-a-card {
+            position: absolute;
+            top: 121px;
+            left: 964px;
+            width: 456px;
+            height: 253px;
+            font-family: Inter;
+            }
+
+            .white-bg {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: #fff;
+            border: 3px solid #bb945f;
+            box-sizing: border-box;
+            width: 600px;
+            height: 386px;
+            }
+
+            .gold-bg {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #bb945f;
+            width: 560px;
+            height: 272px;
+            }
+
+            .card-number {
+            position: absolute;
+            top: 8px;
+            left: 20px;
+            letter-spacing: 0.02em;
+            line-height: 50px;
+            }
+
+            .input-number {
+            position: absolute;
+            top: 201px;
+            left: 40px;
+            width: 520px;
+            height: 66px;
+            }
+
+            .input {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 10px;
+            background-color: #fff;
+            width: 520px;
+            height: 66px;
+            }
+
+            .input-text {
+            position: absolute;
+            top: 110px;
+            left: 40px;
+            width: 520px;
+            height: 66px;
+            }
+
+            .button2 {
+            position: absolute;
+            top: 312px;
+            left: 179px;
+            border-radius: 2px;
+            border: 1px solid #0c0c0e;
+            display: flex;
+            flex-direction: row;
+            padding: 10px 40px;
+            align-items: flex-end;
+            justify-content: flex-start;
+            text-align: center;
+            font-size: 20px;
+            color: #0c0c0e;
+            font-family: Inter;
+            }
+
+            .brooklyn-public-library {
+            position: absolute;
+            top: calc(50% - 153px);
+            left: 40px;
+            letter-spacing: 0.02em;
+            line-height: 50px;
+            color: #000;
+            }
+
+            .card-bg {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 600px;
+            height: 386px;
+            }
+
+            .card-body {
+            position: absolute;
+            top: 66px;
+            left: 0px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 600px;
+            height: 387px;
+            }
+
+            .find-your-library {
+            position: absolute;
+            top: 0px;
+            left: 138px;
+            letter-spacing: 0.02em;
+            font-family: Inter;
+            color: #000;
+            }
+
+            .find-card {
+            position: absolute;
+            top: 121px;
+            left: 20px;
+            width: 600px;
+            height: 453px;
+            text-align: left;
+            font-size: 30px;
+            color: #8e8e8e;
+            }
+
+            .line {
+            position: absolute;
+            top: 60px;
+            left: 161px;
+            background-color: #0c0c0e;
+            width: 50px;
+            height: 1px;
+            }
+
+              .digital-library-cards {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            letter-spacing: 2px;
+            line-height: 40px;
+            text-transform: capitalize;
+            }
+
+               .section-title {
+            position: absolute;
+            top: 20px;
+            left: 534px;
+            width: 372px;
+            height: 61px;
+            font-size: 40px;
+            }
+
+              .librarycard {
+            position: relative;
+            background-color: #fff;
+            width: 100%;
+            height: 614px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 10px;
+            color: #0c0c0e;
+            font-family: Forum;
+            }
